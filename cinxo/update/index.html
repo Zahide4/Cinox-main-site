@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../styles/master.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinox Network</title>
+    <link rel="icon" href="https://cinox.xyz/img/logo.png">
+    <link rel="stylesheet" href="../styles/update.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="../styles/phone3.css">
+
+
+</head>
+
+<body class="dark">
+    <nav class="navbar">
+        <ul class="nav">
+            <li><a href="../">Home</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="">Updates</a></li>
+            <li><a href="../rules/">Rules</a></li>
+            <li><a href="../links/">Links</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <div class="box" id="box1">
+                <h2 class="h2">Anarchy Server</h2>
+                <p class="para">Anarchy has just released! Use /tpr to teleport to somewhere random and start your
+                    journey! The first person to get full diamond armor and create a ticket will get a special surprise
+                    from an admin/owner hehe!</p>
+                <p class="pub">~Someone#0171</p>
+                <p class="date">2022-02-04</p>
+            </div>
+            <div class="box" id="box2">
+                <h2 class="h2">RTP Server Back</h2>
+                <p class="para">The RTP server is back up. Please let us know if it lags so we can see what else we can
+                    do!</p>
+                <p class="pub">~Someone#0171</p>
+                <p class="date">2022-02-07</p>
+            </div>
+            <div class="box" id="box3">
+                <h2 class="h2">Rtp Lag</h2>
+                <p class="para">RTP, as some of you who play it know, lags randomly, ruining the experience for Crystal
+                    PvP. So It will go under maintenance for a few minutes, while I try to sort out the lag. I think
+                    I've found the reason :), so it shouldn't be long! </p>
+                <p class="pub">~WindupYT#8354</p>
+                <p class="date">2022-02-03</p>
+            </div>
+            <div class="box" id="box4">
+                <h2 class="h2">New Site!</h2>
+                <p class="para">We've got our website running! You can access it at https://cinox.xyz/ xD. Credit:
+                    Zahid#3445</p>
+                <p class="pub">~ARandomGuy#3912</p>
+                <p class="date">2022-02-03</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script>
+
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
+</script>
+
+</html>

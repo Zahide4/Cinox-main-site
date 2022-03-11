@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="Cinox Network" property="og:title" />
+    <meta content="Cinox Network" property="og:description" />
+    <meta content="https://cinox.xyz" property="og:url" />
+    <meta content="https://cinox.xyz/img/logo.png" property="og:image" />
+    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
+
+    <link rel="stylesheet" href="./styles/master.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinox Network</title>
+    <link rel="icon" href="https://cinox.xyz/img/logo.png">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./styles/phone1.css">
+    <script defer
+        src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+
+
+</head>
+
+<body class="dark">
+    <nav class="navbar">
+        <ul class="nav">
+            <li><a href="">Home</a></li>
+            <li><a href="./about/">About</a></li>
+            <li><a href="./update/">Updates</a></li>
+            <li><a href="./rules/">Rules</a></li>
+            <li><a href="./links/">Links</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="info">
+            <div class="paras">
+                <div class="para">
+                    Welcome! Cinox Network is an asia hosted minecraft network. Come join or just hang out and make new
+                    friends.
+                </div>
+                <div class="para">
+                    It is mainly focused on 1.9+ pvp with many gamemodes like FFAs RTP, Anarchy and more. The server
+                    provides players with a no lag multiplayer experience.
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="btns1">
+                    <div class="btn">Online: </div>
+                    <div class="btn para" data-playercounter-ip="cinox.xyz">0</div>
+                    <div class="btn" id="more"><a href="./about/">More</a></div>
+                </div>
+                <div class="btns2">
+                    <button class="btn" id="ip">IP: cinox.xyz</button>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="box">
+                <div class="big-circle circle" id="c1"></div>
+                <div class="big-circle circle" id="c2"></div>
+                <div class="small-circle circle" id="c3"></div>
+                <div class="small-circle circle" id="c4"></div>
+                <div class="small-circle circle" id="c5"></div>
+                <div class="small-circle circle" id="c6"></div>
+                <h1>Cinox</h1>
+                <p>network</p>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        const txt = "cinox.xyz"
+        const btn = document.getElementById("ip")
+
+        btn.addEventListener('click', ()=>{
+            navigator.clipboard.writeText(txt)
+            btn.textContent('Copied!')
+            
+        })
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+*{
+    overflow: hidden;
+    margin: 0;
+}
+.main{
+    flex-wrap: wrap;
+}
+.para{
+    padding: 0px;
+    font-size: 6vw;
+    text-align: center;
+}
+.info{
+    width: 100vw;
+    padding: 0;
+    margin: 20vh 2rem;
+    
+}
+.buttons{
+    justify-content: center;
+    align-items: center;
+}
+.btns2{
+    width: 100vw;
+    justify-content: center;
+}
+.box{
+    display: none;
+}
+.navbar{
+    justify-content: center;
+    display: block;
+    margin: auto;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 1rem 0;
+    border-radius: 1px;
+    margin: 10;
+    width: 100vw;
+    gap: 0.7rem;
+
+    justify-content: center;
+}
+.navbar li a{
+    font-size: 4.5vw;
+    margin: 0;
+}
+.btn{
+    font-size: 5vw;
+    padding: 20px;
+}

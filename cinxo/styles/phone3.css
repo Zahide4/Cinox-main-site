@@ -1,0 +1,53 @@
+*{
+    overflow: hidden;
+    margin: 0;
+
+}
+
+.navbar{
+    justify-content: center;
+    display: block;
+    margin: auto;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    padding: 1rem 0px;
+    border-radius: 1px;
+    margin: 10;
+    width: 100vw;
+    gap: 0.7rem;
+
+    justify-content: center;
+}
+.navbar li a{
+    font-size: 4.5vw;
+}
+.main{
+    flex-direction: column;
+    gap: 1rem;
+    width: 100vw;
+    overflow-x: hidden;
+    
+    align-items: center;
+    overflow: scroll;
+    padding: 1rem;
+}
+.box{
+    
+    width: 95vw;
+    height: 35vh;
+    margin: 0.5rem;
+}
+
+.para{
+    font-size: 4.5vw;
+}
+
+.h2{
+    font-size: 7vw;
+}
+.date, .pub{
+    font-size: 3vw;
+}
